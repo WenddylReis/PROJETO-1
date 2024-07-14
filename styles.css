@@ -1,0 +1,164 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 44px 0 144px 76px;
+}
+
+.link-header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #989d9c;
+  cursor: pointer;
+  margin-right: 23px;
+}
+
+.link-header:hover {
+  color: #14bddb;
+  font-size: 28px;
+  transition: 0.5s ease-in-out;
+}
+
+.link-header:active {
+    opacity: 0.5;   
+}
+
+.button-header {
+  background: #665ae1;
+  border-radius: 20.5px;
+  height: 41px;
+  width: 130px;
+  border: none;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button-header:hover {    
+    background: #14bddb;
+    transition: 0.5s ease-in-out;
+}
+
+.button-header:active {    
+    opacity: 0.5;
+}
+
+.logo-image {
+  width: 60vw;
+  height: auto;
+  margin-left: 15vw;
+  display: inline-block;
+}
+
+section {
+  display: inline-block;
+  margin-left: 15vw;
+  padding: 7vh;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 122px;
+  color: #515151;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 71px;
+  color: #515151;
+}
+
+p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #848484;
+  width: 60vw;
+  margin-top: 32px;
+  margin-bottom: 65px;
+}
+
+.button-main {
+  background: #adff00;
+  border-radius: 30px;
+  width: 25vw;
+  height: 10vh;
+  border: none;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-weight: 700;
+  font-size: 5vw;
+  line-height: 3vh;
+  color: #000000;
+}
+
+.button-main:hover {    
+    background: #14bddb;
+    transition: 0.5s ease-in-out;
+}
+
+.button-main:active {    
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 600px) {
+    header {       
+        margin: 10px 0 30px 10px;
+        text-align: center;
+    }
+
+    a {       
+        font-size: 2vw;
+        line-height: 1vw;
+        margin-top: 1vh;       
+        margin-right: 1vw;     
+    }
+
+    .logo-image {
+      margin: 0 10px 0 75px;
+    }
+
+    section {
+      display: inline-block;
+      margin-left: 5vw;
+      padding: 7vh;
+    }
+
+    h1 {
+      font-weight: 450;
+      font-size: 50px;
+      line-height: 60px;
+      text-align: center;
+      margin: 0 5px 5px 0;
+    }
+
+    h2 {
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 35px;
+      text-align: center;
+    }
+    
+    p {
+      font-weight: 200;
+      font-size: 20px;
+      line-height: 20px;   
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .button-main {
+      margin: 0 0 10px 20px;
+      width: 30vw;
+      height: 7vh;
+    }
+}
